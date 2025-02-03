@@ -13,10 +13,10 @@ body {
   color: var(--text-color);
 }
 
-html {
+/* html {
   scroll-behavior: smooth;
   scroll-padding-top: 60px; /* ajusta o scroll para considerar o header fixo, se houver */
-}
+} */
 
 p {
   color: rgb(85, 85, 85);
