@@ -15,21 +15,21 @@ body {
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 60px; /* ajusta o scroll para considerar o header fixo, se houver */
+  scroll-padding-top: 60px;
 }
 
 p {
   color: rgb(85, 85, 85);
 }
 
-/* TRANSITION */
+
 
 a,
 .btn {
   transition: all 300ms ease;
 }
 
-/* DESKTOP NAV */
+
 
 nav {
   justify-content: space-around;
@@ -106,7 +106,6 @@ a:hover {
   cursor: default;
 }
 
-/* HAMBURGER MENU */
 
 #hamburger-nav {
   display: none;
@@ -186,7 +185,6 @@ a:hover {
   transform: none;
 }
 
-/* SECTIONS */
 
 section {
   padding-top: 4vh;
@@ -200,7 +198,7 @@ section {
   display: flex;
 }
 
-/* PROFILE SECTION */
+
 
 #profile {
   display: flex;
@@ -246,14 +244,13 @@ section {
   gap: 1rem;
 }
 
-/* ICONS */
+
 
 .icon {
   cursor: pointer;
   height: 2rem;
 }
 
-/* BUTTONS */
 
 .btn-container {
   display: flex;
@@ -301,7 +298,6 @@ section {
   gap: 1rem;
 }
 
-/* ABOUT SECTION */
 
 #about {
   position: relative;
@@ -354,7 +350,6 @@ section {
   margin: auto 0;
 }
 
-/* EXPERIENCE SECTION */
 
 #experience {
   position: relative;
@@ -393,7 +388,7 @@ article .icon {
   cursor: default;
 }
 
-/* PROJECTS SECTION */
+
 
 #projects {
   position: relative;
@@ -533,7 +528,6 @@ footer p {
   color: var(--text-color);
 }
 
-/* Ajustes para botões no modo escuro */
 [data-theme="dark"] .btn-color-2 {
   border: var(--text-color) 0.1rem solid;
   color: var(--text-color);
@@ -554,7 +548,7 @@ footer p {
   color: var(--text-color);
 }
 
-/* Ajuste para o texto do Experience e Education */
+
 [data-theme="dark"] article h3 {
   color: var(--text-color);
 }
@@ -565,7 +559,7 @@ footer p {
   object-fit: cover;
 }
 
-/* Profile image in mobile nav */
+
 .profile-nav-pic {
   width: 400px;
   height: 400px;
