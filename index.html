@@ -11,12 +11,16 @@
   <body>
     <nav id="desktop-nav">
       <div class="logo">Leonardo Gomes</div>
-      <div>
+      <div class="nav-right">
+
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
+          <button id="theme-toggle" class="theme-toggle">
+            <img src="./assets/moon.png" alt="Theme toggle" class="theme-icon" />
+          </button>
         </ul>
       </div>
     </nav>
@@ -38,7 +42,11 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="Leonardo Gomes profile picture" />
+        <img 
+          src="./assets/profile-pic.png" 
+          alt="Leonardo Gomes profile picture"
+          class="profile-nav-pic" 
+        />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
@@ -277,6 +285,9 @@
               />
             </div>
             <h2 class="experience-sub-title project-title">Chatbot</h2>
+            <p class="project-description">
+              Este projeto é um chatbot baseado em IA generativa que responde apenas com informações presentes no seu banco de dados.
+            </p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -295,6 +306,9 @@
               />
             </div>
             <h2 class="experience-sub-title project-title">App Eurotech</h2>
+            <p class="project-description">
+              Desenvolvimento de um sistema para registrar a presença dos funcionários em treinamentos, realizar testes de proficiência e criar dashboards interativos.
+            </p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -314,6 +328,9 @@
               />
             </div>
             <h2 class="experience-sub-title project-title">CadastroDeEventos</h2>
+            <p class="project-description">
+              Este é um projeto de cadastro de eventos desenvolvido em Java com o framework Spring Boot, utilizando Bootstrap para a interface do usuário e o banco de dados H2 para armazenamento de dados.
+            </p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -333,6 +350,9 @@
               />
             </div>
             <h2 class="experience-sub-title project-title">Projeto KraftHeinz</h2>
+            <p class="project-description">
+              Sistema de Coleta de Feedback de Produtos - Kraft Heinz Este é um projeto desenvolvido como parte de um trabalho acadêmico na FIAP. O objetivo deste sistema é facilitar a coleta de feedback dos consumidores sobre os produtos da Kraft Heinz, fornecendo à empresa insights valiosos para melhorar seus produtos e satisfazer as necessidades dos clientes.
+            </p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
