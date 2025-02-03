@@ -15,7 +15,7 @@ body {
 
  html {
   scroll-behavior: smooth;
-  scroll-padding-top: 60px; /* ajusta o scroll para considerar o header fixo, se houver */
+  scroll-padding-top: 60px; 
 } 
 
 p {
@@ -521,7 +521,6 @@ footer p {
   --background-color: #1a1a1a;
 }
 
-/* Ajustes para textos específicos */
 .section__text p,
 .experience-sub-title,
 .project-title,
@@ -533,7 +532,7 @@ footer p {
   color: var(--text-color);
 }
 
-/* Ajustes para botões no modo escuro */
+
 [data-theme="dark"] .btn-color-2 {
   border: var(--text-color) 0.1rem solid;
   color: var(--text-color);
@@ -554,7 +553,7 @@ footer p {
   color: var(--text-color);
 }
 
-/* Ajuste para o texto do Experience e Education */
+
 [data-theme="dark"] article h3 {
   color: var(--text-color);
 }
@@ -565,7 +564,7 @@ footer p {
   object-fit: cover;
 }
 
-/* Profile image in mobile nav */
+
 .profile-nav-pic {
   width: 400px;
   height: 400px;
