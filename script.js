@@ -14,7 +14,7 @@ function toggleTheme() {
   localStorage.setItem('theme', newTheme);
 }
 
-
+// Inicializa o tema baseado na preferência salva ou usa dark como padrão
 document.addEventListener('DOMContentLoaded', () => {
   const savedTheme = localStorage.getItem('theme') || 'dark';
   document.body.setAttribute('data-theme', savedTheme);
